@@ -1,6 +1,54 @@
-
-.mydiv {
-    border: 5px outset rgb(10, 10, 10);
-    background-color: rgb(173, 215, 230);
-    text-align: center;
+.X{
+  border: 5px outset rgb(255, 252, 252);
+  background-color: rgb(173, 215, 230);
+  text-align: center;
+  max-width: 2000px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
 }
+h1{text-align: center;}
+input{
+  background-image: url(''); 
+  background-position: 10px 12px;
+  background-repeat: no-repeat; 
+  width: 100%; 
+  font-size: 17px; 
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 20px; 
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+input:focus{outline: none;}
+input:hover, input:focus{
+  box-shadow: 0 3px 8px 0 rgba(0,0,0, 0.2), 0 0 0 1px rgba(0,0,0, 0.08);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  background-color: #f6f6f6; 
+  padding: 12px; 
+  text-decoration: none;
+  font-size: 18px; 
+  color: black; 
+  display: block; 
+}
+a.lH {
+    background-color: #e2e2e2; 
+    cursor: default; 
+}
+a:hover:not(.lH) {
+  background-color: #eee; 
+}
+
+/*Info:
+iS = input Search
+fS = Function Search
+sU = Search Ul
+lH = li Header
+*/
