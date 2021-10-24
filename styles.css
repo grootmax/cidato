@@ -1,0 +1,6 @@
+
+.mydiv {
+    border: 5px outset rgb(10, 10, 10);
+    background-color: rgb(173, 215, 230);
+    text-align: center;
+}
